@@ -48,4 +48,13 @@ INSERT INTO student_courses (student_email, course_code, course_name, attendance
 ('sivagokulc18@gmail.com', 'CS401', 'Web technology', 92.50, 'A'),
 ('sivagokulc18@gmail.com', 'DB305', 'Database Management', 88.00, 'B+'),
 ('sivagokulc18@gmail.com', 'AI502', 'Artificial Intelligence', 96.50, 'A'),
+
 ('sivagokulc18@gmail.com', 'ENG210', 'Technical Writing', 82.00, 'B');
+        INSERT INTO student_profile (email, full_name, cgpa, activity_points, reward_points) 
+VALUES ('kvabhinanthan@gmail.com', 'Abhinanthan K V', 3.85, 120, 450);
+
+INSERT INTO student_courses (student_email, course_code, course_name, attendance_percentage, grade) VALUES 
+('kvabhinanthan@gmail.com', 'CS401', 'Web technology', 45, 'UA'),
+('kvabhinanthan@gmail.com', 'DB305', 'Database Management', 88.00, 'B+'),
+('kvabhinanthan@gmail.com', 'AI502', 'Artificial Intelligence', 96.50, 'A'),
+('kvabhinanthan@gmail.com', 'ENG210', 'Technical Writing', 82.00, 'B');
